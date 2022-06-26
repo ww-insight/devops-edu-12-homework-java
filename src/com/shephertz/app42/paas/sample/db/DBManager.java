@@ -127,8 +127,7 @@ public class DBManager {
 		try {
 			db.execute(query);
 		} catch (Exception e) {
-			throw new SQLException("Error while executing query: ' " + query
-					+ " '");
+			e.printStackTrace();
 		}
 		
 	}
