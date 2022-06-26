@@ -24,7 +24,7 @@ public class DBManager {
 		} catch (Exception e) {
 			// do nothing
 			// table already created
-			System.out.println("Table Already Created");	
+			e.printStackTrace();
 		}
 	}
 
