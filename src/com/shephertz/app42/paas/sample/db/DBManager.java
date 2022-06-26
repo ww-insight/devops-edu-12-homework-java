@@ -34,7 +34,7 @@ public class DBManager {
 	public DBManager() {
 		try {
 			dataSource = new DriverManagerDataSource();
-			dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+			dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 			String dbUrl = Util.getDBIp();
 			String username = Util.getDBUser();
 			String password = Util.getDBPassword();
